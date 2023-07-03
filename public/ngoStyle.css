@@ -1,0 +1,207 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navbar-section */
+
+.logo {
+    padding-left: 227px;
+}
+
+.nav-item {
+    padding-right: 2vw;
+    font-size: 15px;
+}
+
+.nav-item {
+    padding-right: 3.5vw;
+    font-size: 18px;
+    /* font-weight: bold; */
+
+}
+
+.logo {
+    padding-left: 120px;
+    padding-right: 10px;
+
+}
+
+.navbar-brand {
+    color: #7ad03a;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 140px;
+}
+
+.navbar-brand:hover {
+    color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        margin-right: 5px;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .nav-item {
+        background-color: black;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+/* pic-section */
+
+.pic {
+    height: 90vh;
+    background-image: url("images/pexels-ricardo-esquivel-1654698.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px 0px;
+}
+
+/* content-section */
+
+.content-div {
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    /* background-color: pink; */
+}
+
+.first,
+.second,
+.third {
+
+    width: 30vw;
+    margin: 0 0;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+.row {
+    width: 100%;
+    margin: 0%;
+    /* background-image: linear-gradient(yellow,rgb(80, 192, 20)); */
+
+}
+
+.content-link {
+    height: 300px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.first {
+    height: 300px;
+    width: 33.33%;
+    background-image: linear-gradient(red, orange, white);
+}
+
+.second {
+    height: 300px;
+    width: 33.33%;
+    background-image: linear-gradient(rgba(5, 84, 87, 0.673), white);
+}
+
+.third {
+    height: 300px;
+    width: 33.33%;
+    background-image: linear-gradient(yellow, rgb(80, 192, 20));
+}
+
+
+/* footer-section */
+
+.footer {
+    background-color: rgb(51, 51, 51);
+    height: 200px;
+    display: block;
+    text-align: center;
+    padding: auto;
+}
+
+.footer-icons {
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .first {
+        width: 100%;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .third {
+        width: 100%;
+    }
+
+    .logo {
+        position: fixed;
+        left: -7rem;
+    }
+
+    .navbar-brand {
+        margin-left: 35px;
+        margin-top: 5px;
+    }
+
+    .n1 {
+        width: 100%;
+    }
+
+    .n2 {
+        width: 100%;
+    }
+
+    .n3 {
+        width: 100%;
+    }
+
+     .x
+     {
+        margin-top: 20px;
+     }
+}
+
+footer {
+    background-color: black;
+}
+
+.foot {
+
+    text-align: center;
+    letter-spacing: -0.025em;
+    font-size: 1.7em;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: white;
+    /* margin-bottom: 60px; */
+
+}
+
+.link {
+    color: white;
+}
+
+ .r1 {
+    margin-left: 39%; 
+    margin-top: 35px;
+}   

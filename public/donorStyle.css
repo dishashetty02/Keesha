@@ -1,0 +1,188 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+
+/* navbar-section */
+
+
+
+/* .navnav{
+    position: relative;
+    left: 6vw;
+} */
+
+
+
+.nav-item{
+    padding-right: 3.5vw;
+    font-size: 18px;
+    /* font-weight: bold; */
+
+}
+.logo{
+    padding-left: 120px;
+    padding-right: 10px;
+
+}
+.navbar-brand {
+color:#7ad03a;
+font-size: 40px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+margin-right: 140px;
+}
+.nav-link{
+    font-style: bold;
+    color: green;
+}
+
+
+/* pic-section */
+
+.pic
+{
+   height:100vh;
+   width:100%;
+   background-image: url("images/slider-1.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   margin:0;
+}
+
+.donate
+{
+    position:relative;
+    top:35rem;
+    margin-left:30px;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    color:black;
+    border: solid black 2px;
+    border-radius: 8px;
+    /* background-color:rgb(130, 212, 7) ; */
+    background-color: white;
+    padding: 8px;
+    
+}
+.et_pb_module_header{
+    font-family: 'Lora',Georgia,"Times New Roman",serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #fff!important;
+    margin-top: 20px;
+}
+.ct{
+    background-color: rgba(27, 32, 44, 0.973);
+    height: 100vh;
+}
+.r1{
+    position: absolute;
+    left: 7%;
+    margin-top: 30px;
+}
+.r2{
+    position: absolute;
+    left: 30%;
+    margin-top: 160px;
+}
+
+/* content-section */
+h2{
+    color: white;
+    position: relative;
+    left: 30%;
+    font-size: 60px;
+}
+.content
+{
+    position: relative;
+    bottom:20px;
+    font-size: 20px;
+    text-align: center;
+    height: 250px;
+    padding:50px;
+    background-color:rgb(51,51,51);
+    color: #fff;
+}
+.img1{
+    width: 100%;
+}
+.icon-section
+{
+   height: 400px;
+   padding: 0 auto;
+   align-items: center;
+   text-align: center;
+   margin: 0;
+}
+
+
+ .content-icon
+{
+    /* height: 200px; */
+    /* max-width: 20%; */
+    background-color: rgb(130, 212, 7);
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    border-radius: 15px;
+}   
+
+.row{
+    width: 100%;
+}
+
+.individual-icon
+{
+    font-size: 30px;
+}
+
+/* footer-section */
+
+footer{
+    background-color: black;
+    height: 33vh;
+}
+.foot{
+text-align: center;
+letter-spacing: -0.025em;
+font-size: 1.7em;
+font-weight: 700;
+line-height: 1.2em;
+text-transform: uppercase;
+position: relative;
+left: 0%;
+margin-top: 40px;
+color: white;
+/* margin-bottom: 60px; */
+
+}
+.link{
+    color: white;
+}
+.ro1{
+    margin-left: 39%;
+    margin-top: 30px;
+}
+.btn{
+    background-color: white;
+    position: relative;
+margin-top: 70vh;
+width: 230px;
+left: 40%;
+font-size: 20px;
+font-weight: 700;
+}
+.btn:hover{
+    background-color: gray;
+}
+

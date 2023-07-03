@@ -1,0 +1,139 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navbar-section */
+
+.logo {
+    padding-left: 227px;
+}
+
+.logo {
+    padding-left: 227px;
+}
+
+.nav-item {
+    padding-right: 2vw;
+    font-size: 15px;
+}
+
+.nav-item {
+    padding-right: 3.5vw;
+    font-size: 18px;
+}
+
+.logo {
+    padding-left: 120px;
+    padding-right: 10px;
+
+}
+
+.navbar-brand {
+    color: #7ad03a;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 140px;
+}
+
+.navbar-brand:hover
+{
+    color:green;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        padding-left: 10%;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        font-size: 20px;
+    }
+
+    .nav-item {
+        background-color: black;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+/* content-section */
+
+.content {
+    background-image: linear-gradient(rgb(142, 237, 142), white, rgb(142, 237, 142));
+    height: 500px;
+} 
+
+.row-1,
+.row-2 {
+    height: 200px;
+}
+
+ .col {
+    text-align: center;
+    padding-top: 100px;
+} 
+
+
+
+.item {
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300px;
+    line-height: 2.5;
+    color: black;
+    text-decoration: none;
+    padding: 50px;
+    transition: all 0.3s linear;
+}
+
+.item:hover {
+    transform: scale(2);
+    background: linear-gradient(rgb(8, 0, 0), white);
+    border-radius: 10px;
+    color: yellow;
+}
+
+/* footer-section */
+
+.footer-div {
+    height: 75px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer-icon,
+.footer-p {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: black;
+    margin-bottom: 20px;
+    color: white;
+}
+
+i {
+    margin-right: 10px;
+    color: white;
+}
+
+.b1 {
+    margin-left: 900px;
+    margin-right: 0px;
+}
+
+.b2 {
+    margin-left: 0;
+}
